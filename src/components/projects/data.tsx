@@ -9,100 +9,74 @@ export const sectionHeading = {
 
 export const timelineData: TimelineEntry[] = [
   {
-    title: "cs-flashcards",
+    title: "Peerfect",
     projectUrls: [
       {
-        url: "https://github.com/yoyocharlie/cs-flashcards-open",
-        icon: <IoLogoGithub size={20} />,
+        url: "https://peerfect.net/",
+        icon: <RiExternalLinkLine size={20} />,
       },
     ],
-    imageUrl: "/images/cs-flashcards.png",
-    description: `A fullstack flashcards web app that I maintain as a valuable learning resource for both myself and the developer community. By open-sourcing this project, I aim to share knowledge and provide a practical tool for others to learn and grow in their development journey.`,
+    imageUrl: "/images/peerfect.jpg",
+    description: ``,
     tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "shadcn/ui",
-      "tRPC",
-      "Prisma",
-      "Docker",
-      "Vercel Postgres",
+      "Javascript",
+      "React.js",
+      "Firebase",
+      "twilio-video",
+      "webRTC",
+      "Material Ui"
     ],
     cards: {
       a: {
-        title: "Comprehensive Learning Tool",
-        text: `Built with TypeScript and Next.js, this app offers a robust
-              platform to enhance your development skills. It's
-              open-sourced to provide a practical tool and valuable knowledge to
-              developers at any stage.`,
+        title: "About",
+        text: `Peerfect is a mock interview platform designed to help users practice their interview skills. It connects people who want to practice interviewing with others, allowing them to schedule and conduct mock interviews in a structured, realistic environment.
+
+
+
+
+
+
+`,
       },
       b: {
-        title: "Easy Integration with Your DB of Choice",
-        text: `Effortlessly integrate with your preferred database, including
-              SQLite for local use. Utilizing Prisma and tRPC, this app offers a
-              flexible and scalable backend setup, making it easy to adapt and
-              manage your data needs as you develop and expand your project.`,
+        title: "Features",
+        text: `Added real-time video conferencing to allow people to practice interview \n Created recommandation system that matches usersbased on their experience and goals.\n Implemented a robust scheduling system that allows users to book, reschedule, and cancel meetings, while supporting multiple time zones\n Integrated a notification system to enable users to send and receive alerts for important events, ensuring timely communication and engagement`,
       },
     },
   },
   {
-    title: "nextMotion",
+    title: "Cosmic terror",
     projectUrls: [
       {
-        url: "https://next-motion-five.vercel.app/",
+        url: "https://cosmicterror.netlify.app/",
         icon: <RiExternalLinkLine size={20} />,
       },
       {
-        url: "https://github.com/yoyocharlie/nextMotion",
+        url: "https://github.com/Oussamahamani/cosmic-terror",
         icon: <IoLogoGithub size={20} />,
       },
     ],
-    imageUrl: "/images/nextMotion.png",
-    description: `An open-source, opinionated portfolio template for creating a modern, reactive SPA portfolio.`,
+    videoUrl: "/images/demo.mp4",
+    description: ``,
     tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Aceternity UI",
-      "Framer Motion",
+      "htmll",
+      "css",
+      "javascript",
+      "canvas",
+
     ],
     cards: {
       a: {
-        title: "Modern Reactive UI",
-        text: `This portfolio template offers a clean, modern, and fully responsive design. Built to be sleek and dynamic, it leverages the latest front-end technologies to ensure a smooth and engaging user experience, perfect for showcasing your projects and skills.`,
+        title: "About",
+        text: `Space survival action shooting game where you have to evade meteors and other enemies, and use your shots wisely to survive. Was built using only html and javascript`,
       },
       b: {
-        title: "Easy Customization & Integration",
-        text: `Seamlessly customize the portfolio to fit your unique style and preferences. With support for easy integration into various data sources, this opinionated template is designed to simplify the process of building a single-page application (SPA) portfolio that truly reflects your work.`,
-      },
-    },
-  },
-  {
-    title: "Simple Joys (WIP)",
-    projectUrls: [
-      {
-        url: "https://simplejoysmedia.com",
-        icon: <RiExternalLinkLine size={20} />,
-      },
-    ],
-    videoUrl: "/images/simple-joys-video.mp4",
-    description: `A cinematography portfolio built with Next.js and Sanity.io for fast page speeds and quick delivery of high quality assets.`,
-    tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Framer Motion",
-      "tRPC",
-      "Sanity",
-    ],
-    cards: {
-      a: {
-        title: "Fast & Responsive Performance",
-        text: `Built with Next.js, this cinematography portfolio ensures lightning-fast page speeds and smooth navigation. High-quality video and image assets load efficiently, offering a seamless viewing experience without compromising on performance.`,
-      },
-      b: {
-        title: "Powered by Sanity.io",
-        text: `Leveraging Sanity.io, this portfolio delivers dynamic content and high-resolution assets with ease. Update your work in real-time and enjoy the flexibility of a powerful CMS, ensuring that your portfolio stays current and visually stunning.`,
+        title: "Story",
+        text: `It is the year 3000, Humanity has become so technologically advanced, even so this didn't make healthcare any cheaper but even more expensive and out of the reach of the normal population, especially when you catch something called stardust syndrome. A disease where your eyes get shiny white grains on them, and they will increase and became bigger until you became blind and die.
+Your beloved is one of those unfortunate ones who had caught the disease. Even selling everything you had wasn't not enough to cover cost of her treatment, Seeing her health regresses and her death getting more imminent by the day you decided that you can't bear this anymore. But selling drugs like walter white wasn't a viable business in the year 3000 , so you decided to enroll in the particle program, a space program where you have to reach the end of the universe, to reach the border, if there is one.
+A journey which no one has ever come back from. but if you can make it, everything will be paid for, so you leave your beloved frozen in a Cryonics, waiting for you tens, hundreds, and even thousands of years for you, until you meet each other again.
+
+`,
       },
     },
   },

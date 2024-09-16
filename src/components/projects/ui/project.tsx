@@ -35,6 +35,7 @@ export function Project({
           </Badge>
         ))}
       </div>
+      
       <div className="flex-wrap gap-4 space-y-4 lg:flex lg:space-y-0">
         <BackgroundGradient containerClassName="basis-[45%] grow">
           {imageUrl && (
@@ -92,7 +93,13 @@ export function Project({
             {cards.b.title}
           </h2>
           <div className="mt-4 max-w-[700px] text-left text-sm text-neutral-200">
-            {cards.b.text}
+          {cards.b.title === "Features"  &&cards.b.text.split('\n').map((line, index) => (
+    <li key={index}>
+      {line}
+      <br />
+    </li>
+  ))}
+  {cards.b.title !== "Features"  &&  cards.b.text}
           </div>
         </WobbleCard>
         <Accordion type="multiple" className="block lg:hidden">
