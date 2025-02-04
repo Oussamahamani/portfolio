@@ -81,7 +81,7 @@ A journey which no one has ever come back from. but if you can make it, everythi
     },
   },
   {
-    title: "PrimeCashBack",
+    title: "PrimeCashBack Extension",
     projectUrls: [
       {
         url: "https://chromewebstore.google.com/detail/primecashback-earn-amazon/bpchibfajmgmeafgdhbomnagllbjbjnj",
