@@ -23,7 +23,7 @@ export const profileCard = {
     },
   ],
   tooltip: {
-    imagePath: "https://media.licdn.com/dms/image/v2/C4D03AQHOObP0Lk4H5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1645200389465?e=1732147200&v=beta&t=_iYAvzNSjscHkqSx7TPpIv58xH6cYCu3adKC3CyMS-k",
+    imagePath: "/images/me.jpg",
     title: "Hey...",
     subTitle: "That's me!",
   },

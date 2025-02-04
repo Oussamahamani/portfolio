@@ -59,7 +59,7 @@ export const timelineData: TimelineEntry[] = [
     videoUrl: "/images/demo.mp4",
     description: ``,
     tech: [
-      "htmll",
+      "html",
       "css",
       "javascript",
       "canvas",
@@ -77,6 +77,73 @@ Your beloved is one of those unfortunate ones who had caught the disease. Even s
 A journey which no one has ever come back from. but if you can make it, everything will be paid for, so you leave your beloved frozen in a Cryonics, waiting for you tens, hundreds, and even thousands of years for you, until you meet each other again.
 
 `,
+      },
+    },
+  },
+  {
+    title: "PrimeCashBack",
+    projectUrls: [
+      {
+        url: "https://chromewebstore.google.com/detail/primecashback-earn-amazon/bpchibfajmgmeafgdhbomnagllbjbjnj",
+        icon: <RiExternalLinkLine size={20} />,
+      }
+    ],
+    imageUrl: "/images/extension.jpg",
+    description: ``,
+    tech: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+
+    ],
+    cards: {
+      a: {
+        title: "About",
+        text: `PrimeCashBack is a Chrome browser extension designed to help users earn cashback on their Amazon purchases. Once installed, users can sign up for free, activate the cashback feature before shopping, and automatically earn up to 10% cashback on eligible purchases`,
+      },
+      b: {
+        title: "Features",
+        text: `Automatic Purchase Tracking: The extension monitors your Amazon purchases in real-time, ensuring that all eligible transactions are tracked for cashback rewards without requiring manual input.
+Authentication System: Utilizes Chrome's identity API to securely authenticate users, ensuring that your personal information and cashback earnings are protected.
+Seamless Amazon Integration: With host permissions for https://www.amazon.com/*, the extension seamlessly integrates with Amazon's website, allowing it to detect when you're shopping and apply cashback offers accordingly.`,
+      },
+    },
+  },
+  {
+    title: "horouf",
+    projectUrls: [
+      {
+        url: "https://horouf.netlify.app/",
+        icon: <RiExternalLinkLine size={20} />,
+       
+      }, {
+        url: "https://github.com/Oussamahamani/horouf",
+        icon: <IoLogoGithub size={20} />,
+      },
+    ],
+    imageUrl: "/images/horouf.jpg",
+    description: ``,
+    tech: [
+      "html",
+      "css",
+      "javascript"
+
+
+    ],
+    cards: {
+      a: {
+        title: "About",
+        text: `Horouf is an interactive web application designed to help users learn and practice Arabic letters and their pronunciations`,
+      },
+      b: {
+        title: "Features",
+        text: `Interactive Learning: Hover over Arabic letters to view their Romanization and listen to their correct pronunciation.
+Sound Feedback: Play sounds for both correct and incorrect answers to reinforce learning.
+Adjustable Diacritics: Toggle the display of alphabet diacritics (Harakats) for a more comprehensive learning experience.
+Harakats Support: Learn about and view the various Harakats (vowel markings) used in Arabic pronunciation.
+Letter Forms: View different forms of each Arabic letter based on its position in a word.
+User Customization: Modify settings to tailor the app according to the user’s learning preferences.`,
       },
     },
   },
