@@ -8,7 +8,7 @@ import { Projects } from "~/components/projects";
 export default function HomePage() {
   return (
     <main className="relative">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Projects />
       {/* <About /> */}
