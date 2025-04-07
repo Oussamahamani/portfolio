@@ -20,6 +20,10 @@ export function Project({
   title,
 }: TimelineEntry) {
   const { data } = usePalette(imageUrl ?? "", 8, "hex");
+  if(title === "ApplyCount"){
+    data[6]  = null
+    data[7]  = null
+  }
   return (
     <div>
       <p className="mb-8 font-extralight text-muted-foreground">
@@ -82,7 +86,7 @@ export function Project({
           style={{ backgroundColor: data?.[7] ?? "#235147" }}
           containerClassName="col-span-2 hidden lg:block"
           className="py-2 xl:py-5"
-        >
+          >
           <h2
             style={{
               color: data?.[7] ?? "#235147",

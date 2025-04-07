@@ -45,6 +45,44 @@ export const timelineData: TimelineEntry[] = [
     },
   },
   {
+    title: "ApplyCount",
+    projectUrls: [
+      {
+        url: "https://applycount.com/",
+        icon: <RiExternalLinkLine size={20} />,
+      },
+    ],
+    imageUrl: "/images/applycount.png",
+    description: ``,
+    tech: [
+      "JavaScript",
+      "React",
+      "Firebase",
+      "Gmail API",
+      "Material UI",
+      "CSS Modules",
+      "Recharts",
+      "Stripe API",
+      "Google OAuth"
+    
+    ],
+    cards: {
+      a: {
+        title: "About",
+        text: `Trackify is an automatic job application tracking tool that effortlessly organizes your entire job search in one place. By connecting to your Gmail account, it automatically detects, categorizes, and analyzes your job applications without requiring manual data entry. The platform provides comprehensive insights into your job search journey, helping you stay organized and strategic throughout the process.`,
+      },
+      b: {
+        title: "Features",
+        text: `Automatic Application Detection: Connect your Gmail to instantly detect job applications, confirmation emails, and responses without manual data entry.
+Comprehensive Dashboard: View your entire job hunt at a glance with real-time statistics on applications, responses, and interviews.
+Visual Application Board: Organize applications by status (Applied, Interview, Assessment, Rejected) with an intuitive Kanban-style board interface.
+Sankey Flow Diagrams: Visualize your job search journey with interactive flow diagrams showing how applications progress through different stages.
+Analytics & Insights: Track which job boards, companies, and positions yield the best response rates to optimize your strategy.
+Free & Pro Plans: Start with essential tracking features for free, or upgrade to Pro for unlimited application tracking, advanced analytics, and multi-email support.`,
+      },
+    },
+  },
+  {
     title: "Cosmic terror",
     projectUrls: [
       {
@@ -111,7 +149,7 @@ Seamless Amazon Integration: With host permissions for https://www.amazon.com/*,
     },
   },
   {
-    title: "horouf",
+    title: "Horouf",
     projectUrls: [
       {
         url: "https://horouf.netlify.app/",
