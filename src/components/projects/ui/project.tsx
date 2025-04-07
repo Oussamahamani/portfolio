@@ -20,9 +20,9 @@ export function Project({
   title,
 }: TimelineEntry) {
   const { data } = usePalette(imageUrl ?? "", 8, "hex");
-  if(title === "ApplyCount"){
-    data[6]  = null
-    data[7]  = null
+  if (title === "ApplyCount" && data) {
+    data[6] = "";
+    data[7] = "";
   }
   return (
     <div>
