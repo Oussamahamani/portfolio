@@ -149,6 +149,40 @@ Seamless Amazon Integration: With host permissions for https://www.amazon.com/*,
     },
   },
   {
+    title: "BetBatBot",
+    projectUrls: [
+   
+      {
+        url: "https://bet-bat-bot.web.app/", // Replace with your actual deployed project URL
+        icon: <RiExternalLinkLine size={20} />,
+      },
+    ],
+    imageUrl: "/images/betbatbot2.png", // Update with your actual image path
+    description: ``,
+    tech: [
+      "JavaScript",
+      "React",
+      "CSS",
+      "firebase",
+      "Game Logic",
+    ],
+    cards: {
+      a: {
+        title: "About",
+        text: `BetBatBot is a strategic twist on the classic game of tic-tac-toe that adds resource management and bidding mechanics to create a deeper, more engaging experience. Players begin with 100 points each and must strategically bid their points to secure the right to place their mark on the 3×3 grid. The highest bidder places their mark but transfers their bid points to their opponent - creating a constant tactical balance between spending points now or saving them for crucial moments later.`
+      },
+      b: {
+        title: "Features",
+        text: `Strategic Bidding System: Implemented a unique bidding mechanic where players must strategically manage limited resources to secure moves.
+        
+  Dynamic Point Exchange: Created a point transfer system where winning bids are given to the opponent, adding layers of tactical decision-making.
+  Real-time Feedback: Designed intuitive UI elements that display current point totals, bid history, and game progression. 
+  Responsive Design: Developed a fully responsive game board that works seamlessly across desktop and mobile devices.
+  Win Detection Algorithm: Built efficient algorithms to detect winning patterns and game completion states.`
+      },
+    },
+  },  
+  {
     title: "Horouf",
     projectUrls: [
       {

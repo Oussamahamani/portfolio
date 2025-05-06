@@ -24,6 +24,10 @@ export function Project({
     data[6] = "";
     data[7] = "";
   }
+  if (title === "BetBatBot" && data) {
+    data[6] = "";
+    data[7] = "";
+  }
   return (
     <div>
       <p className="mb-8 font-extralight text-muted-foreground">
